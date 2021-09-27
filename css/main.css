@@ -38,7 +38,7 @@ h1 i {
 }
 
 ul {
-  font-size: 1rem;
+  font-size: 1.125rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -80,6 +80,8 @@ article a {
   border-width: .2rem;
   padding: .5em 1em .6em;
   border-radius: .3rem;
+  border-color: #afcdda;
+  text-decoration: none;
 }
 
 h2 {
