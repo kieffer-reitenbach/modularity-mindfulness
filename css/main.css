@@ -43,6 +43,7 @@ ul {
   justify-content: space-around;
   align-items: center;
   padding: 0;
+  margin: 0;
 }
 
 li {
@@ -62,6 +63,10 @@ li {
   font-size: 2rem;
 }
 
+article {
+  padding: 1rem;
+}
+
 article a {
   display: block;
   border-style: solid;
@@ -73,6 +78,13 @@ article a {
 h2 {
   display: grid;
   grid-template-columns: auto;
+}
+
+h2 span {
+  font-size: 1rem;
+}
+
+h2 i {
   font-size: 1.5rem;
 }
 
@@ -83,5 +95,9 @@ footer {
 }
 
 .banner {
+  padding: 1rem;
+}
+
+div span {
   padding: 1rem;
 }
